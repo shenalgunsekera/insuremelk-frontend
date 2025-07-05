@@ -11,8 +11,7 @@ import MuiAlert from '@mui/material/Alert';
 import { useAuth } from '../App';
 import Papa from 'papaparse';
 import { textFields } from './AddClientForm';
-
-const API_URL = 'http://localhost:5000';
+import { API_URL } from '../config';
 
 const TableSection = () => {
   const [clients, setClients] = useState([]);

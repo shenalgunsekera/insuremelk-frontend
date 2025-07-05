@@ -4,8 +4,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../App';
 import logo from '../insureme-logo.png';
 import axios from 'axios';
-
-const API_URL = 'http://localhost:5000';
+import { API_URL } from '../config';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
